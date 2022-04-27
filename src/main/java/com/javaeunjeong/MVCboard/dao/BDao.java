@@ -380,7 +380,7 @@ public class BDao {
 			public void setValues(PreparedStatement pstmt) throws SQLException {
 				// TODO Auto-generated method stub
 				pstmt.setInt(1, Integer.parseInt(strGroup));
-//				pstmt.setInt(2, Integer.parseInt(strStep)+1);
+//				pstmt.setInt(2, Integer.parseInt(strStep));
 				
 			}
 		});
@@ -395,7 +395,7 @@ public class BDao {
 //			pstmt = conn.prepareStatement(query);
 //
 //			pstmt.setInt(1, Integer.parseInt(strGroup));
-//			pstmt.setInt(2, Integer.parseInt(strStep)+1);
+//			pstmt.setInt(2, Integer.parseInt(strStep));
 //			
 //			
 //			int dbFlag = pstmt.executeUpdate();//성공이면 1 반환
